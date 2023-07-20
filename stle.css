@@ -1,0 +1,36 @@
+h1{
+    animation: infinite 5s;
+    animation: both 5s;
+}
+@keyframes fadeIn
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+li
+{
+    animation: infinite 5s;
+    animation-name: initial;
+    animation-iteration-count: initial;
+    animation-duration: initial;
+}
+@keyframes fadeIn
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+nav
+{
+    animation-name: initial;
+    animation-iteration-count: initial;
+    animation-duration: initial;
+
+}
+@keyframes fadeIn
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+body, nav{
+    background-image: url(https://i.pinimg.com/originals/70/03/d8/7003d8d5b80e03347b25ac9687bc03f6.jpg);
+}
